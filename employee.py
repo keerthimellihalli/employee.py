@@ -1,7 +1,8 @@
 import sys
+
 if len(sys.argv) != 2:
     print("Usage: python employee.py <salary>")
-    sys.exit(2)
+    sys.exit(1)
 
 salary = float(sys.argv[1])
 
